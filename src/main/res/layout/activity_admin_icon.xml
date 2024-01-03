@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon"
+    android:orientation="vertical"
+    tools:context=".AdminIcon">
+
+
+    <LinearLayout
+        android:id="@+id/lin_hor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/picture1"
+                android:layout_width="100dp"
+                android:layout_height="147dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:id="@+id/Ele"
+                    android:layout_width="87dp"
+                    android:layout_height="102dp"
+                    android:src="@drawable/electrician" />
+
+                <Button
+                    android:background="@drawable/button"
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Electrician" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/picture2"
+                android:layout_width="100dp"
+                android:layout_height="147dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/Ho"
+                    android:layout_width="87dp"
+                    android:layout_height="102dp"
+                    android:src="@drawable/house" />
+                <Button
+                    android:id="@+id/c_button"
+                    android:background="@drawable/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Cleaning" />
+
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_hor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:orientation="horizontal">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/picture3"
+                android:layout_width="100dp"
+                android:layout_height="147dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/Im_Plu"
+                    android:layout_width="87dp"
+                    android:layout_height="102dp"
+                    android:src="@drawable/plumber" />
+
+                <Button
+                    android:id="@+id/p_button"
+                    android:background="@drawable/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="plumber" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:id="@+id/picture4"
+                android:layout_width="100dp"
+                android:layout_height="147dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/Tra"
+
+                    android:layout_width="87dp"
+                    android:layout_height="102dp"
+                    android:src="@drawable/vehicles" />
+
+                <Button
+                    android:id="@+id/t_button"
+                    android:background="@drawable/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="transport" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
